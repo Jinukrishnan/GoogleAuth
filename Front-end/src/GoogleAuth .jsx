@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { GoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
 import axios from "axios"
 const GoogleAuth = () => {
- const clientId = "1065685829067-s6i85isitef589t5mufpk082ehoaa9op.apps.googleusercontent.com";
+ const clientId = "your_api_key";
  const [credentialResponse,setCredentialResponse]=useState(null);
  useMemo(async()=>{
     // console.log(credentialResponse);
